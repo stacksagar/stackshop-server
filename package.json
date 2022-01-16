@@ -1,0 +1,27 @@
+{
+  "name": "stackshop-server",
+  "version": "1.0",
+  "main": "index.js",
+  "author": "stacksagar",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prod": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "multer": "^1.4.3"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
